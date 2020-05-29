@@ -3,12 +3,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class Reis {
-    private double afstand;
     private List<Vertex> path = new ArrayList<>();
-
-    public void setAfstand(double afstand){
-        this.afstand = afstand;
-    }
 
     public void setPath(List<Vertex> path){
         this.path = path;
